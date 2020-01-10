@@ -7,11 +7,11 @@ module.exports = {
     connection: {
       filename: "./data/recipe.db3"
     },
-    migration: {
+    migrations: {
       directory: "./data/migrations"
     },
-    seed: {
+    seeds: {
       directory: "./data/seeds"
-    }
+    },
   }
 };
